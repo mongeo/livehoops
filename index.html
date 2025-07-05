@@ -1,0 +1,181 @@
+<html>
+
+  <head>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <!--/Bootstrap -->
+    <style>
+      body {background-image: url("img/bg.jpg")}
+
+      b.em {
+        color: EC771D !important;
+        text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+
+      }
+
+      .hoopcolor {
+        background-color: EC771D !important;
+        color: white;
+        border-color: white;
+      }
+
+    </style>
+
+  </head>
+
+  <body class="d-flex flex-column min-vh-100">
+    	<nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+
+          <a class="navbar-brand" href="#"><img src="img/test.png" width=50%></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+            <ul class="navbar-nav my-auto mb-2 fw-bold">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features">FEATURES</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#about">ABOUT US</a>
+              </li>
+              <li>
+                <a class="nav-link" href="#contact">CONTACT US</a>
+              </li>
+              <li>
+                <a class="btn btn-primary hoopcolor fw-bold" href="login.php">LOGIN</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+  		<main class="container"> 
+        <section id="home" class="p-3 mt-5">
+        <div class="row align-items-center">
+
+          <div class="col align-middle"> 
+      			<h1>Your <b class="em">AI</b> Powered Basketball<br>
+            Analytic Web Application</h1> 
+      			<p class="lead"> 
+      				<a href="#" class="btn btn-lg fw-bold border-white hoopcolor">Learn more</a> 
+      			</p>
+          </div>
+
+          <div class="col">
+            <img src="img/lh_logo_clear.png" style="width: 75%">
+          </div>
+
+        </div>
+      </section>
+
+      <section class="p-3 my-5" id="features">
+          <div class="row my-auto p-3">
+            <h1 class="my-3 text-center">Features</h1>
+          </div>
+
+<div class="row row-cols-1 row-cols-md-4 g-3">
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h4 class="card-title">Real-Time Player Tracking with Computer Vision</h4>
+        <br><br><br>
+        <p class="card-text mt-auto">Enables automated data gathering without manual input--ideal for teams, analysts, and scouts.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h4 class="card-title">Comparative Player Analysis</h4>
+        <br><br><br>
+        <p class="card-text mt-auto ">Makes talent evaluation and roster decisions more objective and data-informed.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h4 class="card-title">AI-Powered Performance Analytics</h4>
+        <br><br><br>
+        <p class="card-text  mt-auto">Fast, reliable, and scalable insights that go beyond box scores.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <div class="card-body d-flex flex-column">
+        <h4 class="card-title">Real-Time In-game Statistics for Viewers</h4>
+        <br><br><br>
+        <p class="card-text mt-auto">Enhances the viewing experience for fans, broadcasters, and commentators.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section class="p-3 my-5" id="about">
+  <div class="row">
+
+    <div class="col ">
+      <p>LiveHoops is an AI-powered basketball analytics web application built to revolutionize how player performance is tracked, analyzed, and understood.</p>
+      <p>Whether you're a player striving to improve, a coach looking to make smarter strategic decisions, or a fan seeking deeper game insights, LiveHoops delivers the data you need--when you need it.</p>
+    </div>
+    <div class="col">
+      <h1 class="text-end my-3">About Us</h1>
+    </div>
+  </div>
+</section>
+  </main>
+
+
+  <footer class="container-fluid mt-5 p-3" style="background: white;" id="contact">
+    <div class="container">
+
+    <div class="row ">
+
+      <div class="col-md-3 my-auto center " >
+        <h1 class="text-center align-middle">Contact Us</h1>
+      </div>
+      <div class="col-md-6 ">
+
+        <div class="row mt-2 ">
+          <div class="col-md-6 ">
+            <label for="inputName" class="form-label">Name</label>
+            <input type="text" class="form-control" id="inputName">
+          </div>
+            <div class="col-md-6">
+            <label for="inputEmail" class="form-label">Last</label>
+            <input type="email" class="form-control" id="inputEmail">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <label for="inputSubject" class="form-label">Subject</label>
+            <input type="text" class="form-control" id="inputSubject">
+          </div>
+        </div>
+        <div class="row mt-2">
+          <div class="col-md-12">
+            <label for="inputMsg" class="form-label">Message</label>
+            <textarea class="form-control" id="inputMsg"></textarea>
+          </div>
+        </div>
+         <div class="row my-2">
+          <div class="col-md-12 text-end">
+            <button class="btn btn-primary hoopcolor">Submit</button>
+          </div>
+        </div>       
+      </div>
+      <div class="col-md-3">
+      </div>
+    </div>
+  </div>
+</footer>
+  </body>
+</html>
