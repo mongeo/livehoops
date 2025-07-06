@@ -29,7 +29,7 @@ $record = $stmt->fetch(PDO::FETCH_ASSOC); //we are expecting ONLY one record, so
      echo "Username or Password are incorrect!";
  }  else { 
     $_SESSION['username'] = $record['username'];
-    header('location: ../hello.php'); //redirecting to a new file
+    header('location: ../dashboard.php'); //redirecting to a new file
 }
 
 ?>
